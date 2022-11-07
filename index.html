@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dwight's Guessing Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+  
+   <script src='js/guessing-game.js'></script>
+  <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+<div class = container>
+    <header>
+      <div class="title"><h1>Lucky Number Guessing Game</h1></div>
+      <div class="sub-title"><h2>Guess a number between 1 and 100</h2></div>
+    </header>
+
+    <div class="sub-title"><h2>Your Guesses</h2></div>
+    <div id='guesses'>
+      <ul id='guess-list'>
+         <li class = 'guess'>1st</li>
+         <li class = 'guess'>2nd</li>
+         <li class = 'guess'>3rd</li>
+         <li class = 'guess'>4th</li>
+         <li class = 'guess'>Last </li>
+      </ul>
+     </div>
+    <form id = "guess-form" class = "form">
+      <label for="your-guess">Your Lucky Number:</label>
+      <input type="number" id="your-guess" placeholder="Guess a Number" /><input
+        type="submit"
+        value="YOUR GUESS!"
+      />
+    </form>
+
+<!-- Buttons -->
+<div id="menu-buttons" class="row">
+  <div class="col">
+    <button id="reset" type="button" class="reset-button">
+      Reset
+    </button>
+  </div>
+  <div class="col">
+    <button id="hint" type="button" class="hint-button">
+      Hint
+    </button>
+  </div>
+</div>
+</div>
+</div>
+  </body> 
+</html>
